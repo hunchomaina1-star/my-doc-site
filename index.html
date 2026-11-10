@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"content=width=device-width, intial-scale="1.0">
+        <title>My document and notes</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="nav-container">
+                <h1 class="logo">DevDocs</h1>
+                <nav>
+                    <a href="#article=1">getting started</a>
+                    <a href="#article-2">setup guide</a>
+                    <a href="#article-3">resource</a>
+                </nav>
+            </div>
+        </header>
+        <div class="layout">
+            <aside class="sidebar">
+                <h3>Articles</h3>
+                <ul>
+                    <li><a href="#article-1">1. Introduction</a></li>
+                     <li><a href="#article-2">2. Installation</a></li>
+                     <li><a href="#article-3"> 3. Useful Tools</a></li>
+                </ul>
+            </aside>
+            <main class="content">
+                <article id="article-1">
+                    <h2>1. Introduction</h2>
+                    <p class="meta">Published on November 9, 2026</p>
+                    <p>Welcome to the site! This is a minimal, lightweight setup for documenting projects, sharing code snippets or writing technical notes.</p>
+                </article>
+                <hr>
+                    <article id="article-2">
+                        <h2>2. Installations</h2>
+                        <p class="meta">Published on November 9, 2026</p>
+                        <p>Getting your environment started just takes a few snaps:</p>
+                        <pre><code># Clone project repo git clone https://github.com/example/project.git #Navigate into project dirctory cd project</code></pre>
+                    </article>
+                </hr>
+                <article id="article-3">
+                    <h2> 3. Useful Tools</h2>
+                    <p class="meta">Published on November 9, 2026</p>
+                    <p>here are a few essential resources for web development:</p>
+                    <ul>
+                        <li><strong>VS Code: </strong>Fast extensible text editor.</li>
+                        <li><strong>Git & Github:</strong> Version control and code hosting.</li>
+                        <li><strong>Vercel / Netify:</strong> Instant site hosting</li>
+                    </ul>
+                </article>
+            </main>
+            </div>
+        </footer>
+
+    </body>
+    </html>
